@@ -12,7 +12,7 @@ I have tweaked this set of dotfiles to suit my development workflow. The tools I
 - QuickSilver: As a launcher (don't want to pay for alfred :-)
 - Postgres.app: For a self contained Postgresql when I need it
 - Dropbox: And my src directory is kept here too
-- 
+
 
 The Bootstrap Script will download and setup my day-to-day programming languages and tools
 - Rust: IUP, wxwidgets
