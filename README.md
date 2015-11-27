@@ -1,6 +1,43 @@
-# Matt’s dotfiles (from Mathias and Paul Irish) adapted for ZSH
+# Nyimbi's dotfiles
 
 ## Installation
+## A Bit of Background
+I have tweaked this set of dotfiles to suit my development workflow. The tools I generally use are:
+- macports: does all the linux/unix FOSS goodness for me (I know about homebrew, but hey...)
+- SublimeText
+- Atom.io: with emmet, elixir, rust, packages
+- Brackets.io: For HTML style stuff, when I need visual feedback quick
+- Jekyll and Nanoc: for generating static websites post haste
+- iTerm2: as a souped up terminal
+- QuickSilver: As a launcher (don't want to pay for alfred :-)
+- Postgres.app: For a self contained Postgresql when I need it
+- Dropbox: And my src directory is kept here too
+- 
+
+The Bootstrap Script will download and setup my day-to-day programming languages and tools
+- Rust: IUP, wxwidgets
+- Python: Numpy, scipy, sympy, matplotlib, opencv, pyqt, ipython, pandas, orange, wxPython, simplecv
+- Julia
+- gcc and LLVM
+
+
+
+## What this does
+- Added a .extra file to hold my custom configs for all my macs, change to suit you
+- I use macports. not homebrew (silly I know, but hey)
+- It seems generally necessary to setup LC_ALL, LC_LANG, LC_LANGUAGE on remote servers so I do that
+- (toDo) Modified ssh ServerKeepAlive
+- my code directory is generall ~/src so I point to that alot
+- My favorite tools: Sublime Text, Atom.io, Brackets.io
+- My current slew of languages: Rust, Rackets, Python
+- Web tools: Jekyll, Nanoc
+- Of course I am using ohmyz.sh and iTerm2
+- I like Dash (https://kapeli.com/dash)
+- Since I am totally silly I install all my python packages in the system folders. so I set PYTHONPATH (Helps macports install opencv)
+- the  .osx seems particularly dangerous. so commented out everything. Enable only what you need
+
+
+
 
 ### Using Git and the bootstrap script
 
