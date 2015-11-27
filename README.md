@@ -47,7 +47,7 @@ The Bootstrap Script will download and setup my day-to-day programming languages
 You can clone the repository wherever you want. (I like to keep it in `~/Projects/dotfiles`, with `~/dotfiles` as a symlink.) The bootstrapper script will pull in the latest version and copy the files to your home folder.
 
 ```bash
-git clone https://github.com/mattstauffer/ohmyzsh-dotfiles.git
+git clone https://github.com/nyimbi/ohmyzsh-dotfiles.git
 ```
 
 The bootstrap.sh file currently doesn't work, so just copy any of the dotfiles you like into your home directory.
